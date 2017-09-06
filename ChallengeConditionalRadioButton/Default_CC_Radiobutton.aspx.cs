@@ -20,22 +20,22 @@ namespace ChallengeConditionalRadioButton
 
             if (pencilRadioButton.Checked)
             {
-                prefImage.ImageUrl = "https://openclipart.org/download/216413/coniglio_rabbit_small.svg";
+                prefImage.ImageUrl = "https://raw.githubusercontent.com/John-Goya/012_challengeconditionalradiobutton/master/ChallengeConditionalRadioButton/images/pencil.png";
                 resultLabel.Text = "You selected Pencil.";
             }
             else if (penRadioButton.Checked)
             {
-                prefImage.ImageUrl = "https://openclipart.org/download/214840/smallgroup.svg";
+                prefImage.ImageUrl = "https://raw.githubusercontent.com/John-Goya/012_challengeconditionalradiobutton/master/ChallengeConditionalRadioButton/images/pen.png";
                 resultLabel.Text = "You selected Pen.";
             }
             else if (phoneRadioButton.Checked)
             {
-                prefImage.ImageUrl = "https://openclipart.org/download/214840/smallgroup.svg";
+                prefImage.ImageUrl = "https://raw.githubusercontent.com/John-Goya/012_challengeconditionalradiobutton/master/ChallengeConditionalRadioButton/images/phone.png";
                 resultLabel.Text = "You selected Phone.";
             }
             else if (tabletRadioButton.Checked)
             {
-                prefImage.ImageUrl = "https://openclipart.org/download/214840/smallgroup.svg";
+                prefImage.ImageUrl = "https://raw.githubusercontent.com/John-Goya/012_challengeconditionalradiobutton/master/ChallengeConditionalRadioButton/images/tablet.png";
                 resultLabel.Text = "You selected Tablet.";
             }
             else
